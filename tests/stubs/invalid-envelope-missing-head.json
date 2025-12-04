@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gobl.org/draft-0/envelope",
+  "doc": {
+    "$schema": "https://gobl.org/draft-0/bill/invoice",
+    "type": "standard",
+    "issue_date": "2025-04-25",
+    "currency": "EUR",
+    "supplier": {
+      "name": "Example Supplier Ltd"
+    },
+    "totals": {
+      "sum": "100.00",
+      "total": "100.00",
+      "tax": "25.00",
+      "total_with_tax": "125.00",
+      "payable": "125.00"
+    }
+  }
+}
+

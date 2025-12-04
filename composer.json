@@ -1,0 +1,56 @@
+{
+    "name": "ecourier/gobl-validator",
+    "description": "A PHP library for validating JSON documents against the official GOBL schemas.",
+    "keywords": [
+        "gobl",
+        "schema",
+        "json",
+        "json-schema",
+        "validator",
+        "e-invoicing",
+        "einvoice",
+        "opinionated",
+        "tax",
+        "billing",
+        "invoicing",
+        "europe",
+        "schema-validation"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/utecca/php-gobl-validator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Haff",
+            "email": "albert@utecca.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/utecca/php-gobl-validator/issues",
+        "source": "https://github.com/utecca/php-gobl-validator"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecourier\\GoblValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ecourier\\GoblValidator\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "opis/json-schema": "^2.6"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

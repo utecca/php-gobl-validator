@@ -1,0 +1,17 @@
+{
+  "$schema": "https://gobl.org/draft-0/bill/invoice",
+  "uuid": "3aea7b56-59d8-4beb-90bd-f8f280d852a0",
+  "type": "standard",
+  "series": "2025",
+  "code": "001",
+  "issue_date": "2025-04-25",
+  "currency": "EUR",
+  "supplier": {
+    "name": "Example Supplier Ltd",
+    "tax_id": {
+      "country": "DK",
+      "code": "12345678"
+    }
+  }
+}
+

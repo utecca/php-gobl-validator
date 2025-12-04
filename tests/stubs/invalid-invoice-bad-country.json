@@ -1,0 +1,64 @@
+{
+    "$schema": "https://gobl.org/draft-0/bill/invoice",
+    "uuid": "3aea7b56-59d8-4beb-90bd-f8f280d852a0",
+    "type": "standard",
+    "code": "1234",
+    "issue_date": "2025-04-25",
+    "currency": "DKK",
+    "supplier": {
+        "name": "Example Supplier AB",
+        "tax_id": {
+            "country": "DK",
+            "code": "16356706"
+        }
+    },
+    "customer": {
+        "name": "Example Company AB",
+        "tax_id": {
+            "country": "DKs",
+            "code": "41412003"
+        }
+    },
+    "lines": [
+        {
+            "i": 1,
+            "quantity": "1",
+            "item": {
+                "name": "Software Engineering Services",
+                "price": "1000.00"
+            },
+            "sum": "1000.00",
+            "taxes": [
+                {
+                    "cat": "VAT",
+                    "percent": "25.0%"
+                }
+            ],
+            "total": "1000.00"
+        }
+    ],
+    "totals": {
+        "sum": "1000.00",
+        "total": "1000.00",
+        "taxes": {
+            "categories": [
+                {
+                    "code": "VAT",
+                    "rates": [
+                        {
+                            "base": "1000.00",
+                            "percent": "25.0%",
+                            "amount": "250.00"
+                        }
+                    ],
+                    "amount": "250.00"
+                }
+            ],
+            "sum": "250.00"
+        },
+        "tax": "250.00",
+        "total_with_tax": "1250.00",
+        "payable": "1250.00"
+    }
+}
+

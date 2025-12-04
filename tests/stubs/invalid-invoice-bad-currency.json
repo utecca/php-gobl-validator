@@ -1,0 +1,18 @@
+{
+  "$schema": "https://gobl.org/draft-0/bill/invoice",
+  "uuid": "3aea7b56-59d8-4beb-90bd-f8f280d852a0",
+  "type": "standard",
+  "issue_date": "2025-04-25",
+  "currency": "INVALID",
+  "supplier": {
+    "name": "Example Supplier Ltd"
+  },
+  "totals": {
+    "sum": "100.00",
+    "total": "100.00",
+    "tax": "25.00",
+    "total_with_tax": "125.00",
+    "payable": "125.00"
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://gobl.org/draft-0/envelope",
+  "head": {
+    "uuid": "9d8eafd5-77be-11ec-b485-5405db9a3e49",
+    "dig": {
+      "alg": "sha256",
+      "val": "d4c3e1f8a9b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1"
+    }
+  },
+  "doc": {
+    "$schema": "https://gobl.org/draft-0/bill/invoice",
+    "uuid": "3aea7b56-59d8-4beb-90bd-f8f280d852a0",
+    "type": "standard",
+    "issue_date": "2025-04-25",
+    "currency": "EUR",
+    "supplier": {
+      "name": "Example Supplier Ltd"
+    },
+    "totals": {
+      "sum": "100.00",
+      "total": "100.00",
+      "tax": "25.00",
+      "total_with_tax": "125.00",
+      "payable": "125.00"
+    }
+  }
+}
+
